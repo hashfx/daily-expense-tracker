@@ -25,9 +25,9 @@ if (strlen($_SESSION['detsuid'] == 0)) {
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i"
 			rel="stylesheet">
 		<!--[if lt IE 9]>
-			<script src="js/html5shiv.js"></script>
-			<script src="js/respond.min.js"></script>
-			<![endif]-->
+		<script src="js/html5shiv.js"></script>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
 	</head>
 
 	<body>
@@ -203,8 +203,7 @@ if (strlen($_SESSION['detsuid'] == 0)) {
 						?>
 						<div class="panel-body easypiechart-panel">
 							<h4>Total Expenses</h4>
-							<div class="easypiechart" id="easypiechart-red"
-								data-percent="<?php echo $sum_total_expense; ?>">
+							<div class="easypiechart" id="easypiechart-red" data-percent="<?php echo $sum_total_expense; ?>">
 								<span class="percent">
 									<?php if ($sum_total_expense == "") {
 										echo "0";
@@ -213,8 +212,7 @@ if (strlen($_SESSION['detsuid'] == 0)) {
 									}
 
 									?>
-								</span>
-							</div>
+								</span></div>
 
 
 						</div>
